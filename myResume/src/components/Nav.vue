@@ -65,22 +65,29 @@
         methods:{
             navcontent() {
                 this.nav_content=!this.nav_content
-                this.nav_space=!this.nav-space
                 this.log_toggle=!this.log_toggle
             },
             aboutMeActive() {
+                this.nav_content=!this.nav_content
+                this.log_toggle=!this.log_toggle
                 this.aboutMe=true
                 this.portfolio=this.technology=this.contact=false
             },
             portfolioActive() {
+                this.nav_content=!this.nav_content
+                this.log_toggle=!this.log_toggle
                 this.portfolio=true
                 this.aboutMe=this.technology=this.contact=false
             },
             technologyActive() {
+                this.nav_content=!this.nav_content
+                this.log_toggle=!this.log_toggle
                 this.technology=true
                 this.aboutMe=this.portfolio=this.contact=false
             },
             contactActive() {
+                this.nav_content=!this.nav_content
+                this.log_toggle=!this.log_toggle
                 this.contact=true
                 this.aboutMe=this.portfolio=this.technology=false
             }

@@ -17,6 +17,7 @@
         padding: 100px;
         height: 100%;
         text-align: left;
+        background-color: RGB(1,6,10);
         background-image: url(../assets/images/contact-bg.png);
         background-size: 100% auto;
     }

@@ -52,6 +52,7 @@
 <style scoped>
     .portfolio-wrap {
         -webkit-perspective: 800px;
+        background-color: RGB(1,26,112);
         background-image: url(../assets/images/portfolio-bg.png);
         background-size: cover;
         
