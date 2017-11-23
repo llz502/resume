@@ -30,7 +30,7 @@
         padding: 50px 50px;
         background: RGB(15,2,11);
         color: #fff;
-        background-image: url(../assets/images/aboutMe-bg.jpg);
+        background-image: url(../assets/images/aboutMe-bg.png);
     }
     .aboutMe{
         height: 100%;

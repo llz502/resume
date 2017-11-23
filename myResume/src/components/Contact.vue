@@ -4,7 +4,7 @@
         <div class="item">QQ邮箱 1872132961@qq.com</div>
         <div class="item">新浪邮箱 llzc305@sina.com</div>
         <div class="item">微信 
-            <img src="../assets/images/erweima.jpg" alt="">
+            <img src="../assets/images/erweima.png" alt="">
         </div>
     </div>
 </template>
@@ -17,7 +17,7 @@
         padding: 100px;
         height: 100%;
         text-align: left;
-        background-image: url(../assets/images/contact-bg.jpg);
+        background-image: url(../assets/images/contact-bg.png);
         background-size: 100% auto;
     }
     .contact-wrap .item{

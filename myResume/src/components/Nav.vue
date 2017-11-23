@@ -133,8 +133,9 @@
         margin: 50px auto;
         width: 130px;
         height: 126px;
-        background: url(../assets/images/erweima.jpg);
+        background: url(../assets/images/myImg.png);
         background-size: 130px 126px;
+        border-radius: 50%;
     }
 
     .tabs_global .item {
