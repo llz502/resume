@@ -66,13 +66,10 @@
 <style scoped>
   .skill-wrap{
     height: 100%;
-    /* background: url(../assets/images/skill-bg.jpg);
-    background-size: cover;  */
     text-align: left;
     color: #585858;
     font-size: 17px;
-    
-    /* text-shadow: 2px 2px 2px rgb(250, 250, 52); */
+    padding-bottom: 50px;
   }
   .skill-wrap h1{
     text-align: center;

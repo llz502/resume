@@ -33,6 +33,7 @@
         background-color: RGB(5,18,26);
         background-image: url(../assets/images/aboutMe-bg.png);
         background-size:cover; 
+        padding-bottom: 50px;
     }
     .aboutMe{
         height: 100%;

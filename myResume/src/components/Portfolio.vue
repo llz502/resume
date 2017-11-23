@@ -55,7 +55,7 @@
         background-color: RGB(1,26,112);
         background-image: url(../assets/images/portfolio-bg.png);
         background-size: cover;
-        
+        padding-bottom: 50px;
     }
     .portfolio-inner::after{
         content: "";
@@ -126,7 +126,7 @@
 
     .photo_wraper {
         width: 100%;
-        padding-top:55%; 
+        padding-top:65%; 
         -webkit-transform-style: preserve-3d;
         -webkit-transition: all 1s;
     }

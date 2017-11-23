@@ -14,12 +14,13 @@
         font-weight: 300;
         color: #585858;
         text-shadow: 1px 1px 1px #fff;
-        padding: 100px;
+        padding-top: 100px;
         height: 100%;
         text-align: left;
-        background-color: RGB(1,6,10);
+        background-color: RGB(0,13,21);
         background-image: url(../assets/images/contact-bg.png);
-        background-size: 100% auto;
+        background-size: cover;
+        padding-bottom: 50px;
     }
     .contact-wrap .item{
         margin: 30px auto;
