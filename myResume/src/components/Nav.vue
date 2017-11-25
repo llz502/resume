@@ -1,50 +1,47 @@
 <template>
-    <div class="nav-wrap">
-        <div :class="{nav_space}"></div>
-        <header :class="{tabs_global,aboutMe, portfolio, technology,contact}">
-            <div class="menu-wrap" @click="navcontent()">
-                <div class="menu-box">
-                    <div class="menu-inner"></div>
-                </div>
+    <header :class="{tabs_global,aboutMe, portfolio, technology,contact}">
+        <div class="menu-wrap" @click="navcontent()">
+            <div class="menu-box">
+                <div class="menu-inner"></div>
             </div>
-            <div :class="{nav_content}">
-                <router-link to="/AboutMe" tag="li" class="item" @click.native="aboutMeActive()">
-                    <a href="javascript:;">About Me</a>
-                </router-link>
-                <router-link to="/Portfolio" tag="li" class="item" @click.native="portfolioActive()">
-                    <a href="javascript:;">Portfolio</a>
-                </router-link>
-                <router-link to="/TechnologyStack" tag="li" class="item" @click.native="technologyActive()">
-                    <a href="javascript:;">Technology Stack</a>
-                </router-link>
-                <router-link to="/Contact" tag="li" class="item" @click.native="contactActive()">
-                    <a href="javascript:;">Contact</a>
-                </router-link>
-                <div class="log" :class="{log_toggle}">
-                    <a href="http://www.jianshu.com/u/085c1a648228" title="简书">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-jianshu"></use>
-                        </svg>
-                    </a>
-                    <a href="https://github.com/llz502" title="github">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-github"></use>
-                        </svg>
-                    </a>
-                    <a href="https://llz502.github.io/resume/myResume/index.html#/Contact" title="QQ">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-qq"></use>
-                        </svg>
-                    </a>
-                    <a href="https://llz502.github.io/resume/myResume/index.html#/Contact" title="微信">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-weixin"></use>
-                        </svg>
-                    </a>
-                </div>      
-            </div>
-        </header>
-    </div>
+        </div>
+        <div :class="{nav_content}">
+            <router-link to="/AboutMe" tag="li" class="item" @click.native="aboutMeActive()">
+                <a href="javascript:;">About Me</a>
+            </router-link>
+            <router-link to="/Portfolio" tag="li" class="item" @click.native="portfolioActive()">
+                <a href="javascript:;">Portfolio</a>
+            </router-link>
+            <router-link to="/TechnologyStack" tag="li" class="item" @click.native="technologyActive()">
+                <a href="javascript:;">Technology Stack</a>
+            </router-link>
+            <router-link to="/Contact" tag="li" class="item" @click.native="contactActive()">
+                <a href="javascript:;">Contact</a>
+            </router-link>
+            <div class="log" :class="{log_toggle}">
+                <a href="http://www.jianshu.com/u/085c1a648228" title="简书">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jianshu"></use>
+                    </svg>
+                </a>
+                <a href="https://github.com/llz502" title="github">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="https://llz502.github.io/resume/myResume/index.html#/Contact" title="QQ">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                </a>
+                <a href="https://llz502.github.io/resume/myResume/index.html#/Contact" title="微信">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin2"></use>
+                    </svg>
+                </a>
+            </div>      
+        </div>
+    </header>
 </template>
 <script>
     export default {
@@ -56,7 +53,6 @@
                 technology:false,
                 contact:false,
                 nav_content:true,
-                nav_space:true,
                 log_toggle:true,
             }
         },
@@ -91,11 +87,6 @@
 
 </script>
 <style scoped>
-    .nav-wrap{
-    }
-    .nav_space{
-
-    }
     .tabs_global {
         background: #bdbdbd;
         position: fixed;

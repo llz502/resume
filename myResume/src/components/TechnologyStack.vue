@@ -92,11 +92,15 @@
     float: left;
     padding: 10px;
     margin: 10px 0 0 10px;
-    /* background: RGB(248,198,99); */
     box-shadow: 4px;
   }
   ul li .item{
 
+  }
+  @media screen and (max-width: 768px){
+    .skill-wrap ul{
+      width: 100%;
+    }
   }
 </style>
       <!-- CSS 3 动画、Flex 布局、CSS 2 布局

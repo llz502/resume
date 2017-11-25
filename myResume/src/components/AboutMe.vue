@@ -10,22 +10,20 @@
             <p>1993年 | 05月</p>
             <h2>Career Intentions</h2>
             <p>前端开发 | 并对接触后端有较强兴趣</p>
-            <h2>Blog</h2>
-            <h3>简书:</h3>
-            <span>
-                <a href="http://www.jianshu.com/u/085c1a648228">www.jianshu.com/u/085c1a648228</a>
-            </span>
-            <h3>GitHub:</h3>
-            <span>
-                <a href="https://github.com/llz502">github.com/llz502</a>
-            </span>
+            <h2>简书</h2>
+            <p>
+                <a href="http://www.jianshu.com/u/085c1a648228">jianshu.com/llz</a>
+            </p>
+            <h2>GitHub</h2>
+            <p>
+                <a href="https://github.com/llz502">github.com/llz</a>
+            </p>
         </div>
     </div>
 </template>
 <style scoped>
     .aboutMe-wrap{
         font-family: Georgia, "Times New Roman", Times, serif;
-        height: 100%;
         text-align: left;
         padding: 50px 50px;
         background: RGB(15,2,11);
@@ -35,15 +33,14 @@
         background-size:cover; 
         padding-bottom: 50px;
     }
-    .aboutMe{
-        height: 100%;
+    h1,h2{
+        font-weight: bold;
     }
     h1{
         padding: 20px 0;
         font-size: 28px;
         padding-bottom: 20px;
         margin: 0 0 30px 0;
-        font-weight: normal;
         background: url(../assets/images/templatemo_divider.png) bottom repeat-x;
         position: relative;
     }
@@ -80,5 +77,29 @@
         font-family: 隶书, "Times New Roman", Times, serif;
         color: #a2979e;
         font-size: 23px;
+    }
+    a{
+        color: #7272e5;
+    }
+    @media screen and (max-width: 768px) {
+        .aboutMe-wrap{
+            padding: 50px auto;
+        }
+        .aboutMe{
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        h2{
+            font-size: 17px;
+            padding-top:20px;
+            padding-bottom: 5px;
+        }
+        p{
+            font-size: 17px;
+        }
     }
 </style>
