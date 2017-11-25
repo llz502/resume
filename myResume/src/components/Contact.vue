@@ -1,10 +1,11 @@
 <template>
     <div class="contact-wrap">
+        <div class="item">电话 18859661183</div>
         <div class="item">QQ 1872132961</div>
         <div class="item">QQ邮箱 1872132961@qq.com</div>
         <div class="item">新浪邮箱 llzc305@sina.com</div>
         <div class="item">微信 
-            <img src="../assets/images/erweima.png" alt="">
+            <img src="../assets/images/erweima.png" alt="微信二维码">
         </div>
     </div>
 </template>
