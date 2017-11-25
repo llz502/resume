@@ -21,22 +21,22 @@
                     <a href="javascript:;">Contact</a>
                 </router-link>
                 <div class="log" :class="{log_toggle}">
-                    <a href="" title="简书">
+                    <a href="http://www.jianshu.com/u/085c1a648228" title="简书">
                         <svg class="icon" aria-hidden="true">
                             <use xlink:href="#icon-jianshu"></use>
                         </svg>
                     </a>
-                    <a href="" title="github">
+                    <a href="https://github.com/llz502" title="github">
                         <svg class="icon" aria-hidden="true">
                             <use xlink:href="#icon-github"></use>
                         </svg>
                     </a>
-                    <a href="" title="QQ">
+                    <a href="https://llz502.github.io/resume/myResume/index.html#/Contact" title="QQ">
                         <svg class="icon" aria-hidden="true">
                             <use xlink:href="#icon-qq"></use>
                         </svg>
                     </a>
-                    <a href="" title="微信">
+                    <a href="https://llz502.github.io/resume/myResume/index.html#/Contact" title="微信">
                         <svg class="icon" aria-hidden="true">
                             <use xlink:href="#icon-weixin"></use>
                         </svg>
