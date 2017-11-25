@@ -22,6 +22,7 @@
         background-image: url(../assets/images/contact-bg.png);
         background-size: cover;
         padding-bottom: 50px;
+        padding-left: 50px;
     }
     .contact-wrap .item{
         margin: 30px auto;
